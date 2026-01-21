@@ -1,44 +1,35 @@
-## ✊✋✌️ Rock_Paper_Scissors
+## Rock Paper Scissors Game (Python)
 
-**Rock_Paper_Scissors** is a simple two-player Python game where players compete by choosing rock, paper, or scissors over a selected number of rounds.
+This is a simple **Rock–Paper–Scissors** game written in **Python**, where a player competes against an imaginary friend (the computer). The game uses Python’s `random` module to generate the computer’s choice and keeps track of the player’s score across multiple rounds.
 
-### 🎮 How the Game Works
+### How the Game Works
 
-* The players choose how many rounds they want to play.
-* Two players enter their names.
-* In each round, both players choose between:
+* The player chooses how many rounds they want to play.
+* The player enters their name and the name of their imaginary friend.
+* In each round, the player selects **rock**, **paper**, or **scissors**.
+* The computer randomly chooses between rock, paper, or scissors.
+* The game compares both choices and declares a **win**, **loss**, or **draw**.
+* The score increases for a win, decreases for a loss, and stays the same for a draw.
+* After all rounds are completed, the final score is displayed.
 
-  * **rock**
-  * **paper**
-  * **scissors**
-* The game determines the winner of each round based on classic rules:
+### Features
 
-  * Rock beats Scissors
-  * Scissors beats Paper
-  * Paper beats Rock
-* The result of each round is displayed as:
+* Random computer choices using the `random` module
+* Score tracking across multiple rounds
+* Clear win/lose/draw outcomes
+* Simple and beginner-friendly Python logic
+* Uses `time.sleep()` for better gameplay experience
 
-  * Win
-  * Lose
-  * Draw
+### Technologies Used
 
-### ⭐ Features
+* Python
+* `random` module
+* `time` module
 
-* Two-player gameplay
-* Custom number of rounds
-* Simple text-based interface
-* Easy-to-understand game logic
-* Beginner-friendly Python code
-
-### 🧠 Purpose
-
-This project was created to practice Python basics such as:
-
-* User input handling
-* Conditional statements
-* Loops
-* Game logic implementation
+This project is great for beginners who want to practice **conditional statements**, **loops**, and **user input** in Python.
 
 ---
+
+
 
 
